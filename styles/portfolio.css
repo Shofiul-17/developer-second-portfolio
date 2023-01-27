@@ -29,7 +29,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
-    /* padding: 50px; */
+    padding: 50px;
 }
 
 .nav-title {
@@ -77,30 +77,41 @@ nav li {
 main{
     max-width: 1140px;
     height: 550px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+section{
+    margin-top: 130px;
 }
 
 /* about me section styles */
 .about{
-    margin-top: 130px;
     text-align: center;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 }
-
-.about-section-title{
-    /* text-align: center; */
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+/* .about-section-title{
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
-}
-
-.about-section-description{
-    font-size: 18px;
+} */
+.section-description{
     color: #757575;
+    font-size: 18px;
     margin-bottom: 30px;
 }
+/* .about-section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+} */
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -118,7 +129,36 @@ main{
 }
 
 /* What I do styles */
-.what-i-do{
+/* .what-i-do{
+    margin-top: 130px;
+} */
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+
+/* .what-i-do{
     margin-top: 130px;
 }
 .what-i-do-section-title{
@@ -152,4 +192,97 @@ main{
 }
 .skill-description{
     color: #757575;
+} */
+
+/* resume section styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
 }
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+/* .resume-section-title{
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+} */
+/* .resume-content{
+    display: flex;
+    gap: 24px;
+
+} */
+
+/* .resume .education-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    color: #474747;
+} */
+/* .resume .edu-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #474747;
+} */
+/* .resume .edu-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+} */
+/* .resume .edu-description{
+    color: #757575;
+} */
+/* .resume .experience-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.resume .exp-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #474747;
+}
+.resume .exp-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume .exp-description{
+    color: #757575;
+} */
+
+/* Downlod CV button */
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
