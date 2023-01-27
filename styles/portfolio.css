@@ -28,7 +28,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0px 200px;
     padding: 50px;
 }
 
@@ -51,8 +51,7 @@ nav li {
 .banner{
     display: flex;
     align-items: center;
-    /* Width 500px */
-    /* Height 600px */
+    /* margin: 0 200px; */
     margin: 150px 30px 2px 200px;
 }
 
@@ -284,5 +283,30 @@ section{
     text-align: center;
 }
 
-
-
+/* Contact styles */
+.contact{
+    display: flex;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.section-description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
